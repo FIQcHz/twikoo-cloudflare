@@ -9,10 +9,6 @@ binding = "DB" # available in your Worker on env.DB
 database_name = "twikoo"
 database_id = "459b0bf7-7dd6-4199-b437-d98fa026285f"
 
-[[r2_buckets]]
-binding = "R2"
-bucket_name = "twikoo"
-
 [vars]
 R2_PUBLIC_URL = "https://twikoo.r2.mingy.org"
 
